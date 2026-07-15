@@ -1,0 +1,66 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #222222;
+    padding: 100px 250px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content *{
+    color: #FFF;
+}
+
+.aboutRow{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.profileImage{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.title{
+    font-size: 52px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.text{
+    font-family: "Lora", Times, serif;
+    text-align: justify;
+    width: 650px;
+    font-size: 20px
+}
+
+.profileNskillsRow{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 100px;
+}
+
+.miniTitle{
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #0097B2;
+}
+
+.profileInfoName{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.profileInfoValue{
+    font-size: 24px;
+    font-family: "Lora", Times, serif;
+    color: #CACACA;
+}

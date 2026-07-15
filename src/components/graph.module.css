@@ -1,0 +1,19 @@
+.description{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.line{
+    width: 100%;
+    height: 15px;
+    background-color: #D9D9D9;
+}
+.valueLine{
+    height: 15px;
+    background-color: #0097B2;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: block;
+}
