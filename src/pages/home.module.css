@@ -1,0 +1,66 @@
+.background{
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003a454d;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    color: #FFF;
+    font-size: 128px;
+    font-family: "Black Han Sans";    
+}
+
+.subtitle{
+    font-family: "Lora", Times;
+    color: #FFF;
+    text-align: center;
+    font-weight: 100;
+}
+
+.pretitle{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    color: #FFF;
+    text-align: center;
+}
+
+.button{
+    width: 200px;
+    height: 80px;
+    font-family: "Black Han Sans", sans-serif;
+    font-size: 20px;
+    color: #8C8C8C;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid #8C8C8C;
+    margin-top: 50px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.button:hover{
+    border-color: #0097B2;
+    color: #fff;
+    top: -10px;
+    left: -10px;
+    box-shadow: 10px 10px #003a45;
+    cursor: pointer;
+}
