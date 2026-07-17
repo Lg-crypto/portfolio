@@ -44,6 +44,16 @@
     display: grid;
     grid-template-columns: 50% 50%;
     margin-top: 100px;
+    position: relative;
+}
+.profileNskillsRow::before{
+    content: "";
+    width: 1px;
+    height: 300px;
+    background-color: #FFF;
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 5%);
 }
 
 .miniTitle{
