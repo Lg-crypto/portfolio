@@ -6,6 +6,7 @@
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #003a454d;
@@ -34,14 +35,16 @@
 .pretitle{
     font-family: "Poppins", sans-serif;
     font-size: 24px;
-    color: #FFF;
+    color: #0097B2;
     text-align: center;
 }
 
 .button{
     width: 200px;
     height: 80px;
-    font-family: "Black Han Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    backdrop-filter: blur(20px);
+    font-weight: bold;
     font-size: 20px;
     color: #8C8C8C;
     border-radius: 10px;
@@ -49,11 +52,12 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    border: 3px solid #8C8C8C;
+    border: 3px solid #0097B2;
     margin-top: 50px;
     position: relative;
     top: 0px;
     left: 0px;
+    user-select: none;
 }
 
 .button:hover{
@@ -61,6 +65,46 @@
     color: #fff;
     top: -10px;
     left: -10px;
-    box-shadow: 10px 10px #003a45;
+    box-shadow: 10px 10px #011f25;
+    /* box-shadow: 10px 10px #003a45; */
     cursor: pointer;
+}
+.button:active{
+    top: 0;
+    left: 0;
+    box-shadow: none;
+}
+
+.medias{
+    position: absolute;
+    bottom: 5vh;
+    gap: 50px;
+    display: flex;
+}
+
+.media{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    backdrop-filter: blur(10px);
+    position: relative;
+    top: 0;
+    left: 0;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.media:hover{
+    border-color: #0097B2;
+    color: #fff;
+    top: -10px;
+    left: -10px;
+    box-shadow: 10px 10px #011f25;
+    /* box-shadow: 10px 10px #003a45; */
+    cursor: pointer;
+}
+.media:active{
+    top: 0;
+    left: 0;
+    box-shadow: none;
 }

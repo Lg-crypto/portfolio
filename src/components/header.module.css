@@ -34,6 +34,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: bold;
     font-size: 24px;
+    width: max-content;
 }
 
 .headerContainer nav ul li a{
